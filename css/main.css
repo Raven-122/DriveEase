@@ -1,0 +1,44 @@
+<style>
+/* Prevent sidebar from going full height */
+.bg-light {
+    background-color: #f8f9fa !important;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px; /* Add spacing around the sidebar */
+    display: inline-block; /* Only takes as much height as the content */
+}
+
+.sidebar-nav .nav-link {
+    font-size: 18px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-nav .nav-link i {
+    font-size: 24px;
+}
+
+.sidebar-nav .nav-link:hover {
+    background-color: #2e5f80;
+    color: white;
+}
+
+.sidebar-nav .nav-link.active {
+    background-color: #2e5f80;
+    color: white;
+}
+
+.sidebar-nav .nav-item {
+    margin-bottom: 10px;
+}
+
+.text-center img {
+    margin-bottom: 10px;
+}
+</style>
